@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Homeworks02.RealCalculator", "SEDC.Homeworks02.RealCalculator\SEDC.Homeworks02.RealCalculator.csproj", "{A4369F40-0A4B-4D60-BC9C-85A8BA3C0629}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.Homeworks02.RealCalculator", "SEDC.Homeworks02.RealCalculator\SEDC.Homeworks02.RealCalculator.csproj", "{A4369F40-0A4B-4D60-BC9C-85A8BA3C0629}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Homeworks02.AverageNumber", "SEDC.Homeworks02.AverageNumber\SEDC.Homeworks02.AverageNumber.csproj", "{C7B36029-6CFE-4BA9-B6A2-BDF03CAF5948}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.Homeworks02.AverageNumber", "SEDC.Homeworks02.AverageNumber\SEDC.Homeworks02.AverageNumber.csproj", "{C7B36029-6CFE-4BA9-B6A2-BDF03CAF5948}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Homeworks02.SwapNumbers", "SEDC.Homeworks02.SwapNumbers\SEDC.Homeworks02.SwapNumbers.csproj", "{476878EB-BF7D-41A8-83B9-B7CF1F90DB2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDC.Homeworks02.SwapNumbers", "SEDC.Homeworks02.SwapNumbers\SEDC.Homeworks02.SwapNumbers.csproj", "{476878EB-BF7D-41A8-83B9-B7CF1F90DB2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Homeworks02.Exercise06", "SEDC.Homeworks02.Exercise06\SEDC.Homeworks02.Exercise06.csproj", "{CFCFD8D4-3381-4A33-B709-0CA4019C133A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SEDC.Homeworks02.Exercise07", "SEDC.Homeworks02.Exercise07\SEDC.Homeworks02.Exercise07.csproj", "{39072818-3C4B-4ABA-87DB-55C6A06DD2A4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{476878EB-BF7D-41A8-83B9-B7CF1F90DB2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{476878EB-BF7D-41A8-83B9-B7CF1F90DB2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{476878EB-BF7D-41A8-83B9-B7CF1F90DB2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFCFD8D4-3381-4A33-B709-0CA4019C133A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFCFD8D4-3381-4A33-B709-0CA4019C133A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFCFD8D4-3381-4A33-B709-0CA4019C133A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFCFD8D4-3381-4A33-B709-0CA4019C133A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39072818-3C4B-4ABA-87DB-55C6A06DD2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39072818-3C4B-4ABA-87DB-55C6A06DD2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39072818-3C4B-4ABA-87DB-55C6A06DD2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39072818-3C4B-4ABA-87DB-55C6A06DD2A4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
