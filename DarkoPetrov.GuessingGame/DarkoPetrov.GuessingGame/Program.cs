@@ -52,8 +52,24 @@ namespace DarkoPetrov.GuessingGame
                         Console.ReadLine();
                         winner = true;
                     }
-                    Console.WriteLine("");
                     userLives++;
+                    if (userLives == 9)
+                    {
+                        Console.WriteLine("Do you want to try again? Y/N?: ");
+                        string tryAgain = Console.ReadLine();
+                        if (tryAgain == "y")
+                        {
+                            userLives = 0;
+                            Console.WriteLine("Hope you do better this time :)");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Better luck next time! See ya!");
+                            Console.ReadLine();
+                        }
+                    }
+                    Console.WriteLine("");
+                    
 
                 } while (winner == false && userLives < 9);
             }
@@ -98,6 +114,21 @@ namespace DarkoPetrov.GuessingGame
                         winner = true;
                     }
                     userLives++;
+                    if (userLives == 7)
+                    {
+                        Console.WriteLine("Do you want to try again? Y/N?: ");
+                        string tryAgain = Console.ReadLine();
+                        if (tryAgain == "y")
+                        {
+                            userLives = 0;
+                            Console.WriteLine("Hope you do better this time :)");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Better luck next time! See ya!");
+                            Console.ReadLine();
+                        }
+                    }
                     Console.WriteLine("");
 
                 } while (winner == false && userLives < 7);
@@ -141,13 +172,28 @@ namespace DarkoPetrov.GuessingGame
                         Console.ReadLine();
                         winner = true;
                     }
-                    Console.WriteLine("");
                     userLives++;
+                    if (userLives == 5)
+                    {
+                        Console.WriteLine("Do you want to try again? Y/N?: ");
+                        string tryAgain = Console.ReadLine();
+                        if (tryAgain == "y")
+                        {
+                            userLives = 0;
+                            Console.WriteLine("Hope you do better this time :)");
+                        }
+                        else
+                        {
+                            Console.WriteLine("Better luck next time! See ya!");
+                            Console.ReadLine();
+                        }
+                    }
+                    Console.WriteLine("");
 
                 } while (winner == false && userLives < 5);
             }
-            Console.WriteLine("Better luck next time...!");
-            Console.ReadLine();
+            Console.WriteLine("Better luck next time");
+            Console.WriteLine("");
         }
     }
 }
